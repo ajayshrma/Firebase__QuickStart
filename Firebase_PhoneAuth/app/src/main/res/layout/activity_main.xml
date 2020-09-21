@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Welcome to D-MArt"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal">
+    </TextView>
+
+
+    <Button
+        android:onClick="process"
+        android:id="@+id/Go_to_phoneAuth"
+        android:textSize="35dp"
+        android:text="Go"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:background="#000000"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+</RelativeLayout>
