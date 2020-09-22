@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:background="@color/colorAccent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+
+    <Button
+        android:id="@+id/browse"
+        android:layout_gravity="center"
+        android:text="browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+    <EditText
+        android:id="@+id/usr_name"
+        android:textSize="25dp"
+        android:textColorHint="#000000"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/Usr_no"
+        android:textSize="25dp"
+        android:textColorHint="#000000"
+        android:hint="Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/usr_address"
+        android:textSize="25dp"
+        android:textColorHint="#000000"
+        android:hint="Short Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:id="@+id/submit"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="Add to firebase"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
